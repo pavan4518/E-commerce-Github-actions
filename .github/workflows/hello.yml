@@ -8,4 +8,4 @@ jobs:
    runs-on: ubantu-latest
    steps:
     -name: Say hello 
-     run: echo"hello Dosto"
+     run: echo "hello Dosto"
