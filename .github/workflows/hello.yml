@@ -1,0 +1,11 @@
+#Start the naming your workflow
+name: Hello 
+on: 
+ push:
+  branches: [main]
+jobs:
+  greet:
+   runs-on: ubantu-latest
+   steps:
+    -name: Say hello 
+     run: echo"hello Dosto"
